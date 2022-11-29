@@ -5,4 +5,4 @@ def RetornaTamanho(x):
 
 nome = input("Informe o seu nome: ")
 tamanho = RetornaTamanho(nome)
-print("Se nome tem : %i letras" %tamanho)
+print("Seu nome tem : %i letras" %tamanho)

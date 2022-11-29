@@ -23,5 +23,5 @@ notas = { 'Português': 7,
 for x in notas.values():
     print(x)
 
-for x, y in  notas.items():
+for x, y in notas.items():
     print(x, y)
