@@ -13,7 +13,7 @@ print("JSON string = ", y)
 # # JSON file
 f = open('data.json', 'r')
 f.close()
-#Reading from file
+
 data = json.loads(a)
 data1 = json.dumps(a)
 print(data)
