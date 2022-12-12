@@ -1,7 +1,5 @@
 # Python program to read
 # json file
-
-
 import json
 
 # JSON string
@@ -24,7 +22,6 @@ print("O nome é " + data["name"] + "o idioma é " + data["languages"])
 for i in data.values():
     print(i)
 for x, y in data.items():
-    print(x,y)
-
-
-
+    print(x, y)
+for i in data.keys():
+    print(i)
