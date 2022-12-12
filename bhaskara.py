@@ -8,13 +8,15 @@ delta = b**2 - 4*a*c
 
 if (delta == 0):
     x1 = ((-b) + math.sqrt(delta)) / (2*a)
-    print("A única raiz é: %.2f" %x1)
+    print("a raiz dupla desta equação é %f" %x1)
 elif (delta < 0):
-    print("Esta equação não possui raízes reais")
+    print("esta equação não possui raízes reais")
 else:
     x1 = ((-b) + math.sqrt(delta)) / (2*a)
     x2 = ((-b) - math.sqrt(delta)) / (2*a)
-    print("X1 é %.2f" %x1)
-    print("X2 é %.2f" %x2)
+    if (x1 < x2):
+        print("as raízes da equação são %f" %x1 + "e" "%f" %x2)
+    else:
+        print("as raízes da equação são %f" %x2 + " e " "%f" %x1)
 
 
