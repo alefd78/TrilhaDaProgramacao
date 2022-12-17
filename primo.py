@@ -7,6 +7,8 @@ if(num == 1):
 ##########################
 if (num % 2 == 0 and num == 2):
     primo = True
+if (num % 2 == 0 and num > 2):
+    primo = False
 elif(num % 3 == 0 and num != 3):
     primo = False
 elif(num % 5 == 0 and num != 5):

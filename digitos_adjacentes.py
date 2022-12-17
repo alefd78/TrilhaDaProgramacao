@@ -12,8 +12,7 @@ while (comprimentoNumero > 1):
     if (ultimoAlgarismo == proximoAlgarismo):
         print("sim")
         break
-
-else : print("não")  #não entendi
+else : print("não")  #else da instrução while !!! Novidade // Do while
 
 
 
