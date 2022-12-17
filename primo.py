@@ -1,28 +1,45 @@
-numeroPrimo = 99
+num = int(input("Digite um número para verificar se é primo:"))
+primo = True
+if(num == 2):
+    primo = True
+if(num == 1):
+    primo = True
+##########################
+if (num % 2 == 0 and num == 2):
+    primo = True
+elif(num % 3 == 0 and num != 3):
+    primo = False
+elif(num % 5 == 0 and num != 5):
+    primo = False
+elif(num % 7 == 0 and num != 7):
+    primo = False
+elif(num % 11 == 0 and num != 11):
+    primo = False
+elif(num % 13 == 0 and num != 13):
+    primo = False
+elif(num % 17 == 0 and num != 17):
+    primo = False
+elif(num % 19 == 0 and num != 19):
+    primo = False
+elif(num % 23 == 0 and num != 23):
+    primo = False
+elif(num % 29 == 0 and num != 29):
+    primo = False
+elif(num % 37 == 0 and num != 37):
+    primo = False
+elif(num % 41 == 0 and num != 41):
+    primo = False
 
-def retornaPar(num):
-    if(num <= 2):
-        valor = num % 2 + num % 3 + num % 5 + num % 7 + num % 9
-    if(valor == 0 and valor != 11):
-        primo = 0
-    return(primo)
+if(primo):
+    print("primo")
+else:
+    print("não primo")
 
-def retornaComprimentoNumero(num):
-    num = int(input("Digite um número:"))
-    temp = str(num)
-    comprimentoNumero = len(temp)
-    return(comprimentoNumero)
 
-def verificaAdjacente(num, cn):
-    idx = cn
-    while(idx >= 1 and ultimoAlgarismo == proximoAlgarismo):
-        ultimoAlgarismo = num % 10
-        completo = num // 10
-        proximoAlgarismo = completo%10
-        idx = idx - 1
-        if(idx == 1)
-            primo = 0
-    return(primo)
+
+
+
+
 
 
 
