@@ -12,7 +12,7 @@ if(k <= n):
         while(idx <= n):
             fat = idx * fat
             idx = idx + 1
-        return(fat)
+        return (fat)
 
     def numeroBinomial(n, k):
 
